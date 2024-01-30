@@ -1,0 +1,55 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+:root {
+    --default-font:'Poppins', 'sans-serif';
+    --primary-color: #2374EE;
+}
+
+.Head{
+    margin-left: 50px;
+    margin-right: 90px;
+    margin-top: 12px;
+}
+img{
+    width: 70px;
+    height: 60px;
+}
+.Head span{
+    font-size: 30px;
+    font-weight: 900;
+    /*padding-left: 12px;*/
+    margin-left: 29px;
+}
+.nav a{
+    text-decoration: none;
+    list-style: none;
+    margin-left:40px;
+    opacity: 0.2;
+    font-weight: 700;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 40px;
+}
+nav .black{
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+}
+.nav{
+    margin-left: px;
+    margin-right: 20px;
+}
+button{
+    border:none ;
+    border-radius: 35px;
+    padding: 1rem 2rem;
+}
+.cac-blue{
+    background-color:var(--primary-color);
+    color: aliceblue;
+}   
