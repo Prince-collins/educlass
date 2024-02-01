@@ -2,26 +2,28 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
+    background-color: var(--Hero-bg-color);
 }
 :root {
     --default-font:'Poppins', 'sans-serif';
     --primary-color: #2374EE;
+    --Hero-bg-color:#EBF2FF;
+
 }
 
 .Head{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     margin-left: 50px;
     margin-right: 90px;
-    margin-top: 12px;
-}
-img{
-    width: 70px;
-    height: 60px;
-}
+} 
 .Head span{
     font-size: 30px;
     font-weight: 900;
     /*padding-left: 12px;*/
-    margin-left: 29px;
+    margin-left: 2px;
 }
 .nav a{
     text-decoration: none;
@@ -52,4 +54,11 @@ button{
 .cac-blue{
     background-color:var(--primary-color);
     color: aliceblue;
-}   
+}
+/*Hero styles*/
+.Hero__top{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 5rem;
+    background-color: var(--Hero-bg-color);  
+}
