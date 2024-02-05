@@ -1,15 +1,19 @@
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 30px;
-    background-color: var(--Hero-bg-color);
-}
+
+/* CSS Rese*/
+@import url(/CSS/reset.css);
+
 :root {
     --default-font:'Poppins', 'sans-serif';
     --primary-color: #2374EE;
     --Hero-bg-color:#EBF2FF;
 
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--Hero-bg-color);
 }
 
 .Head{
@@ -18,13 +22,15 @@
     gap: 1rem;
     margin-left: 50px;
     margin-right: 90px;
-} 
+}
+
 .Head span{
     font-size: 30px;
     font-weight: 900;
     /*padding-left: 12px;*/
     margin-left: 2px;
 }
+
 .nav a{
     text-decoration: none;
     list-style: none;
@@ -56,9 +62,23 @@ button{
     color: aliceblue;
 }
 /*Hero styles*/
-.Hero__top{
+.hero__top {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding: 5rem;
     background-color: var(--Hero-bg-color);  
+}
+.hero__top h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 800;
+}
+.hero__content {
+    display: grid;
+     gap: 2rem;
+}
+
+.hero__image {
+    grid-column: span 2 / span 2;
+    /* zoom: 30%; */
 }
