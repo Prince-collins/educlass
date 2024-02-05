@@ -27,7 +27,7 @@
 .Head span{
     font-size: 30px;
     font-weight: 900;
-    /*padding-left: 12px;*/
+    /* padding-left: 12px;*/
     margin-left: 2px;
 }
 
@@ -65,7 +65,7 @@ button{
 .hero__top {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding: 5rem;
+    padding: 5rem 0;
     background-color: var(--Hero-bg-color);  
 }
 .hero__top h1 {
@@ -76,9 +76,19 @@ button{
 .hero__content {
     display: grid;
      gap: 2rem;
+     padding: 5rem 0 2rem 5rem;
 }
 
 .hero__image {
     grid-column: span 2 / span 2;
-    /* zoom: 30%; */
+    position: relative;
+}
+.hero__image img{
+    position: absolute;
+    top: 0;
+    gap: 0;
+}
+.hero__button{
+    display: flex;
+
 }
